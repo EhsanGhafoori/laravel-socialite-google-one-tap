@@ -189,14 +189,14 @@ class AppServiceProvider extends ServiceProvider
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelSocialite\GoogleOneTap\LaravelGoogleOneTapServiceProvider;
+use LaravelSocialite\GoogleOneTap\GoogleOneTapSocialiteExtend;
 
 class EventServiceProvider extends ServiceProvider
 {
     protected $listen = [
         \SocialiteProviders\Manager\SocialiteWasCalled::class => [
             // other providers
-            LaravelGoogleOneTapServiceProvider::class,
+            GoogleOneTapSocialiteExtend::class . '@handle',
         ],
     ];
 }
