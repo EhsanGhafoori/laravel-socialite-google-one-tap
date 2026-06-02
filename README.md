@@ -1,19 +1,19 @@
-<p align="center"><a href="https://websitinu.com" target="_blank"><img src="https://raw.githubusercontent.com/Websitinu/laravel-socialite-google-one-tap/main/img/Websitinu-laravel-socialite-google-one-tap.png" width="1200"></a></p>
+<p align="center"><a href="https://github.com/EhsanGhafoori/laravel-socialite-google-one-tap" target="_blank"><img src="https://raw.githubusercontent.com/EhsanGhafoori/laravel-socialite-google-one-tap/main/img/laravel-socialite-google-one-tap.png" width="1200" alt="Laravel Socialite Google One Tap"></a></p>
 
 # A lightweight package to integrate Google One Tap with Laravel Socialite.
 
 <p align="center">
-<a href="https://github.com/Websitinu/laravel-socialite-google-one-tap"><img src="https://raw.githubusercontent.com/websitinu/laravel-socialite-google-one-tap/main/img/test/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/websitinu/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/dt/websitinu/laravel-socialite-google-one-tap" alt="Total Downloads"></a>
-    <a href="https://packagist.org/packages/websitinu/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/v/websitinu/laravel-socialite-google-one-tap" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/websitinu/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/l/websitinu/laravel-socialite-google-one-tap" alt="License"></a>
+<a href="https://github.com/EhsanGhafoori/laravel-socialite-google-one-tap"><img src="https://raw.githubusercontent.com/EhsanGhafoori/laravel-socialite-google-one-tap/main/img/test/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/ehsanghafoori/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/dt/ehsanghafoori/laravel-socialite-google-one-tap" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/ehsanghafoori/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/v/ehsanghafoori/laravel-socialite-google-one-tap" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/ehsanghafoori/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/l/ehsanghafoori/laravel-socialite-google-one-tap" alt="License"></a>
 </p>
 
 ## Installation
 To install this package, run the following composer command:
 
 ```bash
-composer require websitinu/laravel-socialite-google-one-tap
+composer require ehsanghafoori/laravel-socialite-google-one-tap
 ```
 
 

@@ -1,17 +1,22 @@
 {
-    "name": "websitinu/laravel-socialite-google-one-tap",
-    "description": "A very light package to install Google One Tap Login on your Laravel web application that you have already installed Socialite",
+    "name": "ehsanghafoori/laravel-socialite-google-one-tap",
+    "description": "A lightweight package to add Google One Tap login to Laravel applications using Socialite",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "keywords": [
         "google one tap",
         "laravel",
-        "websitinu",
+        "ehsanghafoori",
         "socialite",
         "login with google",
-        "box register google in top"
-        
+        "google sign-in"
     ],
+    "homepage": "https://github.com/EhsanGhafoori/laravel-socialite-google-one-tap",
+    "support": {
+        "issues": "https://github.com/EhsanGhafoori/laravel-socialite-google-one-tap/issues",
+        "source": "https://github.com/EhsanGhafoori/laravel-socialite-google-one-tap"
+    },
     "autoload": {
         "psr-4": {
             "LaravelSocialite\\GoogleOneTap\\": "src/"
@@ -20,10 +25,11 @@
     "authors": [
         {
             "name": "Ehsan Ghafoori",
-            "email": "ehsan@websitinu.com"
+            "email": "ehgh1996@gmail.com",
+            "homepage": "https://github.com/EhsanGhafoori",
+            "role": "Maintainer"
         }
     ],
-
     "require": {
         "php": "^8.2",
         "ext-json": "*",
@@ -35,7 +41,6 @@
         "pestphp/pest": "^2.36",
         "phpunit/phpunit": "10.5.36"
     },
-
     "autoload-dev": {
         "psr-4": {
             "SocialiteProviders\\GoogleOneTap\\Tests\\": "tests"
@@ -48,7 +53,8 @@
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
-        }
+        },
+        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
