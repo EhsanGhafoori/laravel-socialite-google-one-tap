@@ -3,7 +3,6 @@
     "description": "A lightweight package to add Google One Tap login to Laravel applications using Socialite",
     "type": "library",
     "license": "MIT",
-    "version": "2.6",
     "keywords": [
         "google one tap",
         "laravel",
@@ -37,9 +36,12 @@
         "socialiteproviders/manager": "^4.8"
     },
     "require-dev": {
-        "orchestra/testbench": "^9.12",
-        "pestphp/pest": "^2.36",
-        "phpunit/phpunit": "10.5.36"
+        "orchestra/testbench": "^9.15|^10.8|^11.0",
+        "pestphp/pest": "^3.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "suggest": {
+        "laravel/socialite": "Required to use this package (^5.0)"
     },
     "autoload-dev": {
         "psr-4": {
@@ -48,15 +50,18 @@
     },
     "scripts": {
         "google-task-composer-cleanup": "Google\\Task\\Composer::cleanup",
-        "pest": "./vendor/bin/pest"
+        "test": "./vendor/bin/pest",
+        "test:lint": "composer validate --strict"
     },
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "audit": {
+            "block-insecure": false
+        }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "google/apiclient-services": [

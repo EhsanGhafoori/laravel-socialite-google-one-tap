@@ -9,6 +9,12 @@
 <a href="https://packagist.org/packages/websitinu/laravel-socialite-google-one-tap"><img src="https://img.shields.io/packagist/l/websitinu/laravel-socialite-google-one-tap" alt="License"></a>
 </p>
 
+## Requirements
+
+- **PHP** 8.2+ (PHP 8.3+ required when using **Laravel 13**)
+- **Laravel** 11, 12, or 13
+- **Laravel Socialite** ^5.0
+
 ## Installation
 To install this package, run the following composer command:
 
@@ -157,7 +163,7 @@ return [
 
 Configure the package's listener to listen for `SocialiteWasCalled` events. Add the event to your `listen[]` array in `app/Providers/EventServiceProvider`. See the [Base Installation Guide](https://socialiteproviders.com/usage/) for detailed instructions.
 
-<h3 id="for-example-in-laravel-11"><a href="#for-example-in-laravel-11" class="header-anchor">#</a> For example in Laravel 11 and 12</h3>
+<h3 id="for-example-in-laravel-11"><a href="#for-example-in-laravel-11" class="header-anchor">#</a> For example in Laravel 11, 12, and 13</h3>
 <p>In <code>app/providers/AppServiceProvider.php</code>.</p>
 
 ```php
