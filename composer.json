@@ -1,13 +1,13 @@
 {
-    "name": "ehsanghafoori/laravel-socialite-google-one-tap",
+    "name": "websitinu/laravel-socialite-google-one-tap",
     "description": "A lightweight package to add Google One Tap login to Laravel applications using Socialite",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "2.6",
     "keywords": [
         "google one tap",
         "laravel",
-        "ehsanghafoori",
+        "websitinu",
         "socialite",
         "login with google",
         "google sign-in"
